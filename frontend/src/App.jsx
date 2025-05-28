@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = React.useState('⏳ Chargement...');
 
   React.useEffect(() => {
-    fetch('http://194.163.45.122/ping')
+    fetch('https://himuclub.com/ping')
       .then((res) => res.json())
       .then((data) => setMessage(`Réponse API : ${data.message}`))
       .catch(() => setMessage('Réponse API : Erreur API ❌'));
