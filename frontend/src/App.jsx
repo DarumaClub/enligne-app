@@ -1,3 +1,5 @@
+import React from 'react';
+
 function App() {
   const [message, setMessage] = React.useState('⏳ Chargement...');
 
