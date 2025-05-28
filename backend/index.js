@@ -7,7 +7,7 @@ const PORT = 3000;
 app.use(cors());
 
 app.get('/ping', (req, res) => {
-  res.json({ message: 'pong 🏓' });
+res.json({ message: 'pong depuis VPS 🇯🇵' });
 });
 
 app.listen(PORT, () => {
